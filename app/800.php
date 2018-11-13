@@ -69,7 +69,7 @@
         a.MEMEOC		AS		empresa_obs_cliente
 		
 		FROM EMPMEM a
-		INNER JOIN PARMTD b ON a.MEMTEC = b.MTDTDC
+		INNER JOIN PARMTD b ON a.MEMTSC = b.MTDTDC
 		INNER JOIN PARMTD c ON a.MEMTEC = c.MTDTDC
 		
         WHERE a.MEMEID = '$val00'
