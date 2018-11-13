@@ -6,4 +6,4 @@
 	require __DIR__.'/../app/500.php';                             //TABLA PARMTD TIPO DOMINIO
 	require __DIR__.'/../app/600.php';                             //TABLA PARMTC TIPO CATEGORÍA/SUBCATEGORÍA
 	require __DIR__.'/../app/700.php';                             //TABLA PERMPE PERSONA
-	require __DIR__.'/../app/700.php';                             //TABLA EMPMEM EMPRESA
+	require __DIR__.'/../app/800.php';                             //TABLA EMPMEM EMPRESA
